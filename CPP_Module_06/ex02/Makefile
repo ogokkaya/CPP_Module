@@ -1,4 +1,4 @@
-NAME    = ScalarConverter
+NAME    = Identify
 CC      = c++
 CFLAGS  = -Wall -Wextra -Werror -std=c++98
 RM      = rm -rf
@@ -7,7 +7,7 @@ SRC_DIR = src/
 OBJ_DIR = obj/
 INC_DIR = include/
 
-SRC_FILES = main.cpp ScalarConverter.cpp
+SRC_FILES = main.cpp
 OBJ_FILES = $(SRC_FILES:.cpp=.o)
 
 SRC = $(addprefix $(SRC_DIR), $(SRC_FILES))
