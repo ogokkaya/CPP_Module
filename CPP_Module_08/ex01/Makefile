@@ -1,4 +1,4 @@
-NAME    = easyfind
+NAME    = Span
 CC      = c++
 CFLAGS  = -Wall -Wextra -Werror -std=c++98
 RM      = rm -rf
@@ -7,7 +7,7 @@ SRC_DIR = src/
 OBJ_DIR = obj/
 INC_DIR = include/
 
-SRC_FILES = main.cpp
+SRC_FILES = main.cpp Span.cpp
 OBJ_FILES = $(SRC_FILES:.cpp=.o)
 
 SRC = $(addprefix $(SRC_DIR), $(SRC_FILES))
